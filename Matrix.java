@@ -1,7 +1,7 @@
 class Matrix {
     public static void main(String args[])
     {
-        //コマンドライン引数が必ず1つしていされていなければならない
+        //コマンドライン引数が必ず1つ指定されていなければならない
         if (args.length != 1) {
             System.out.println("usage: java Matrix N");
             return;
